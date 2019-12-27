@@ -6,7 +6,7 @@ function logText(e) {
   //e.stopPropagation(); //stop bubbling
 }
 
-//document.body.addEventListener('click', logText);
+document.body.addEventListener('click', logText); // listens for a click
 
 divs.forEach(div => div.addEventListener('click', logText, {
   capture: true,
@@ -14,7 +14,7 @@ divs.forEach(div => div.addEventListener('click', logText, {
 }));
 
 button.addEventListener('click', () => {
-  console.log('click');
+  console.log('clickkkkkkk');
 }, {
-  once: true
+  once: true // button can only be clicked once.
 })
