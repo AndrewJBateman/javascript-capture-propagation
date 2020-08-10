@@ -1,11 +1,10 @@
-# Javascript Capture Propagation
+# :zap: Javascript Capture Propagation
 
-Wes Bos Youtube Tutorial: [JavaScript Event Capture, Propagation and Bubbling - #JavaScript30 25/30](https://www.youtube.com/watch?v=F1anRyL37lE&index=25&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
-
+* Wes Bos Youtube Tutorial: [JavaScript Event Capture, Propagation and Bubbling - #JavaScript30 25/30](https://www.youtube.com/watch?v=F1anRyL37lE&index=25&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH).
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,23 +15,23 @@ Wes Bos Youtube Tutorial: [JavaScript Event Capture, Propagation and Bubbling - 
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Tutorial Code to understand how Javascript event capture works in triggering events and how to prevent propagation.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/bubble.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * logs text on screen for each div.
 
@@ -43,20 +42,19 @@ divs.forEach(div => div.addEventListener('click', logText, {
 }));
 ```
 
-## Features
+## :cool: Features
 
 *  The bubbling principle: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. The process is called “bubbling”, because events “bubble” from the inner element up through parents like a water bubble. The method to stop bubbling is event.stopPropagation()
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: N/A
 
-## Inspiration
+## :clap: Inspiration
 
 * [JavaScript Event Capture, Propagation and Bubbling - #JavaScript30 25/30](https://www.youtube.com/watch?v=F1anRyL37lE&index=25&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
